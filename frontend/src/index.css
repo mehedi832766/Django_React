@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.border-test {
+    @apply  border-2
+}
+
+.box{
+    @apply m-2 h-48 w-48 bg-amber-700
+}
+
+::placeholder {
+    color: white;
+    
+  }
