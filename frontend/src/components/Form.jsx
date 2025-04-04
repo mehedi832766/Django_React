@@ -36,7 +36,7 @@ function Form({route, method}) {
         }
     }
 
-  return <form onSubmit={handleSubmit} className='bg-yellow-200 flex flex-col space-y-2 items-center justify-center border-amber-500 rounded-xl  w-72 h-72'>
+  return <form onSubmit={handleSubmit} className='bg-yellow-200 flex flex-col shadow-xl space-y-2 items-center justify-center border-amber-500 rounded-xl  w-72 h-72'>
     
     <h1 className='font-bold'>{name}</h1> <div >not an user yet? <span className='font-bold' onClick={()=> name==='login'?navigate('/register/'):navigate('/login/')}> {forLin} </span></div>
     <input type=
